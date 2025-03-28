@@ -8,7 +8,7 @@ import './App.css'
 
 // TWELVEDATA TIMESERIES API URL https://api.twelvedata.com/time_series?symbol=AAPL&interval=1min&apikey=your_api_key
 // TWELVEDATA VARIABLES
-const timeSeriesInterval = '1min';
+const timeSeriesInterval = '15min';
 const TDKEY = import.meta.env.VITE_TDKEY;
 
 // API CALL FOR OPENING PRICE.  USED FOR GREEN VS RED CHARTING.
