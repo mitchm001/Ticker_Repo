@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticker-button {
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  font: bold;
+}
+
+.modal-container {
+    z-index: 1;
+    position: 'relative';
+    margin-bottom: '20px';
+    height: '30%'; /* Set the height to 30% of the parent container */
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    background-color: '#ADD8E6';
+}
+
+.timestamp-container {
+  margin-bottom: '20px';
+  height: '70%'; /* Set the height to 70% of the parent container */
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
