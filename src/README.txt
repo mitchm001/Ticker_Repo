@@ -5,6 +5,10 @@ npm install react-apexcharts
 
 npm run dev - to run the application
 
+CLONE GIT REPO
+https: git clone https://github.com/mitchm001/Ticker_Repo.git
+SSH: git clone git@github.com:mitchm001/Ticker_Repo.git
+
 1) Rename the file ".env_sample" to ".env"
     
 2) Create a free account with twelvedata, get your API key and enter it into your .env file
