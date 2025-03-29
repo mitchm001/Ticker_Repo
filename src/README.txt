@@ -3,6 +3,8 @@ npm install dotenv
 npm install react
 npm install react-apexcharts
 
+npm run dev - to run the application
+
 1) Rename the file ".env_sample" to ".env"
     
 2) Create a free account with twelvedata, get your API key and enter it into your .env file
